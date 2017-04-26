@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="com.example.kasraeslami.firebasetutorial.SignupActivity">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/text_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:textSize="20dp"
+            android:hint="Hello!" />
+    </android.support.design.widget.TextInputLayout>
+    <Button android:id="@+id/sign_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sign_out"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
